@@ -1,5 +1,5 @@
 {
-    "name": "atlas/cli",
+    "name": "haymaker/atlas-cli",
     "type": "library",
     "description": "Command-line interface for Atlas.",
     "keywords": [ "sql", "data", "mapper", "mapping", "orm" ],
@@ -11,6 +11,9 @@
             "homepage": "https://github.com/atlasphp/Atlas.Cli/contributors"
         }
     ],
+    "replace": {
+        "atlas/cli":"2.2.2"
+    }
     "require": {
         "php": ">=7.1.0",
         "atlas/info": "~1.0",

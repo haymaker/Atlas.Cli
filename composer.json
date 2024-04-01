@@ -13,7 +13,7 @@
     ],
     "replace": {
         "atlas/cli":"2.2.2"
-    }
+    },
     "require": {
         "php": ">=7.1.0",
         "atlas/info": "~1.0",
